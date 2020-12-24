@@ -1,6 +1,6 @@
 # Plagiarism Detection Using Amazon SageMaker
 
-This is the second deployment project which is part of the MLE Nanodegree.Detecting plagiarism is an active area of research; 
+This is the second deployment project which is part of the MLE Nanodegree. Detecting plagiarism is an active area of research; 
 the task is non-trivial and the differences between paraphrased answers and original
 work are often not so obvious. In this project, a plagiarism detector is developed that examines a text file and performs
 binary classification; labeling that file as either plagiarized or not, depending on how similar that text file is to a provided source text.
@@ -17,7 +17,7 @@ This project is broken down into three main notebooks:
 3. Select "good" features, by analyzing the correlations between different features.
 4. Create train/test .csv files that hold the relevant features and class labels for train/test data points.
 
-## Notebook 3: Train and Deploy Your Model in SageMaker
+## Notebook 3: Train and Deploy Model in SageMaker
 1. Upload train/test feature data to S3.
 2. Define a binary classification model and a training script.
 3. Train the model and deploy it using SageMaker.
@@ -31,6 +31,6 @@ This project is broken down into three main notebooks:
 ## Setup instructions
 ```
 cd SageMaker
-git clone 
+git clone https://github.com/rohanjn98/plagiarism-detection-sagemaker.git
 exit
 ```
